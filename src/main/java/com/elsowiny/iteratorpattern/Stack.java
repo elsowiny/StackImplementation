@@ -11,4 +11,10 @@ package com.elsowiny.iteratorpattern;
  */
 public interface Stack {
     
+        public Object pop(Object item);
+	  
+	public Object push(Object item);
+	    
+	public void clear();
+	
 }
