@@ -9,14 +9,6 @@ package com.elsowiny.iteratorpattern;
  *
  * @author elsow
  */
-public interface Stack {
+public class StackClient {
     
-    //lifo
-    
-        public Object pop(Object item);
-	  
-	public Object push(Object item);
-	    
-	public void clear();
-	
 }
