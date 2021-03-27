@@ -13,10 +13,12 @@ public interface Stack {
     
     //lifo
     
-        public Object pop(Object item);
+        public Object pop();
 	  
-	public Object push(Object item);
+	public void push(Object item);
 	    
 	public void clear();
+        
+        public int getSize();
 	
 }
