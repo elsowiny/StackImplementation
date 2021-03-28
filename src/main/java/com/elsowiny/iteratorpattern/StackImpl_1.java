@@ -66,5 +66,9 @@ the last item that is the first item to go out.
         return stack.size();
     }
     
+    @Override
+    public Object get(int i){
+        return stack.get(i);
+    }
 
 }

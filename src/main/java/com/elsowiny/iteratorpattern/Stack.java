@@ -20,5 +20,7 @@ public interface Stack {
 	public void clear();
         
         public int getSize();
+        
+        public Object get(int i);
 	
 }

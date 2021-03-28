@@ -49,4 +49,9 @@ public class StackImpl_2 implements Stack {
         return stack.size();
     }
     
+    @Override
+    public Object get(int i){
+        return stack.get(i);
+    }
+    
 }
